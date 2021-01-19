@@ -1,0 +1,60 @@
+*{
+    color:white;
+}
+
+body{
+    background-image:url('https://i.postimg.cc/XJxvCvL2/Flowery-Adventurous-Bactrian-max-14mb.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    
+    height:100%;
+    width:100%;
+
+}
+a{
+    text-decoration:none;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    position: center;
+}
+p{
+    text-align:center;
+    position: relative;
+}
+i{
+    padding-left: 80px;
+}
+.container{
+
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .container{
+        
+        
+    
+    margin: auto;
+    padding: 10px;
+    display: inline;
+        
+        
+    }
+   
+   .container .d1 {
+    
+        padding-bottom: 40px;
+        
+    }
+    i{
+        padding-bottom: 40px;
+    }
+    
+}
